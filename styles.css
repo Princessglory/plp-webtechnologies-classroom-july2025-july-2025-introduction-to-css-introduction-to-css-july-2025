@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+/* Intro section */
+.intro {
+    background-color: #caf0f8; /* content background */
+    padding: 20px; /* padding */
+    border: 5px dashed #0096c7; /* border */
+    margin: 30px auto; /* margin */
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Info cards */
+.info-card {
+    background-color: #fff3b0; /* content background */
+    padding: 25px; /* padding */
+    border: 4px solid #ff8800; /* border */
+    margin: 25px auto; /* margin */
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.button-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.btn {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 24px; /* padding */
+    margin: 10px; /* margin */
+    border: 3px solid #023e8a; /* border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #023e8a;
+}
+
+.btn-outline {
+    background-color: white;
+    border: 3px dashed #0077b6;
+    color: #0077b6;
+}
+
+.btn-outline:hover {
+    background-color: #0077b6;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Box-sizing for control */
+.intro, .info-card, .btn {
+    box-sizing: border-box;
+}
